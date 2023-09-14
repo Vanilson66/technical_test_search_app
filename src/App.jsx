@@ -1,10 +1,4 @@
 import './App.css'
+import RoutesApp from "./routes";
 
-function App() {
-
-  return (
-    <></>
-  )
-}
-
-export default App
+export default () => <RoutesApp/>

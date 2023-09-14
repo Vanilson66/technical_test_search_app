@@ -1,0 +1,80 @@
+.home_page {
+      width: 100%;
+      height: 100%;
+      /* estructure */
+      display: flex;
+      flex-direction: column;
+      position: relative;
+}
+
+.header_tools {
+      width: 100%;
+      height: 70px;
+      /* background-color: rgb(255, 255, 255); */
+      /* border-bottom: 1px solid rgb(224, 224, 224); */
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.26);
+      /* estructure */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* position */
+      position: relative;
+      top: 0;
+}
+
+.header_right_side {
+      display: flex;
+}
+
+.header_right_side .tool_item {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+}
+
+.header_right_side .tool_item .account_picture_file {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+}
+
+.homepage_middle_screen {
+      width: 100%;
+      height: 100%;
+      /* estructure */
+      display: flex;
+      flex-direction: column;
+}
+
+.homepage_middle_screen > .logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 200px;
+}
+
+.homepage_middle_screen > .search_area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 35px;
+}
+
+.homepage_middle_screen > .search_area > .actions {
+      padding-top: 35px;
+}
+
+.footer_version_info {
+      width: 100%;
+      height: 50px;
+      background-color: rgb(228, 228, 228);
+      padding: 0 20px;
+      /* estructure */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* position */
+      position: relative;
+      bottom: 0;
+}

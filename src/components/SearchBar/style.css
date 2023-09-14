@@ -1,0 +1,33 @@
+.search_bar {
+      width: 520px;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      border: 2px solid rgb(235, 235, 235);
+      border-radius: 50px;
+}
+
+.search_bar > .search_icon {
+      padding: 5px 20px 0 20px;
+}
+
+.search_bar > .search_bar_text_input {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.search_bar > .search_bar_text_input input {
+      background: none;
+      color: black;
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 1.2rem;
+
+}
+
+.search_bar > .seach_erase_icon {
+      padding: 5px 20px 0 20px;
+}
