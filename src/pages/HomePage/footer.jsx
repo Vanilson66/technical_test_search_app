@@ -1,11 +1,11 @@
 export default () => {
       return (
-            <header className="footer_version_info">
-                  <span className="left_side">
+            <header className="homepage_footer">
+                  <span className="footer_left_side">
                         <p>&copy; Google 2023</p>
                   </span>
 
-                  <span className="right_side">
+                  <span className="footer_right_side">
                         <p>version: 0.1.0</p>
                   </span>
             </header>

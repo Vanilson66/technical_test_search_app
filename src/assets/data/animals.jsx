@@ -1,4 +1,4 @@
-import faker from '@faker-js/faker';
+import { faker } from '@faker-js/faker';
 
 const getImage = () => faker.image.animals(644, 362, true);
 const getType = () => faker.animal.type();
