@@ -13,6 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+  --white-background: whitesmoke;
+  --dim-background: rgb(233, 233, 233);
+  --translucent-border: rgba(0, 0, 0, 0.11)
 }
 
 * {

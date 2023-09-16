@@ -1,11 +1,11 @@
 import { ItemResult, ItemEmptyPlace, ItemResultNotFind } from '../../components/ItemResult'
 
-export const renderResults = ({searchInput, animalsData, setAnimalSelected}) => {
+export const renderResults = ({searchInput, filteredAnimals, setAnimalSelected}) => {
       if(!searchInput) return <ItemEmptyPlace/>
       
-      if (!animalsData.length) return <ItemResultNotFind input={searchInput} />
+      if (!filteredAnimals.length) return <ItemResultNotFind input={searchInput} />
 
-      return animalsData.map((item) => (
+      return filteredAnimals.map((item) => (
             <ItemResult
                   key={item.id}
                   title={item.title}

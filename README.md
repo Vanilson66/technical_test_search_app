@@ -31,7 +31,8 @@ As it is a research App, there are many possibilities when it comes to scale, so
 in a project like this I would plan it thinking about where it would grow, thinking 
 this way to create a code with the correct level of abstraction, without it becoming
 too abstract to the point of making it difficult to understand or "glued" making 
-maintenance difficult.
+maintenance difficult, could also use Typescript which would help maintain the quality
+of the code as it continues to grow.
 
 Now looking at it just as a test, for example, in the research part, you could create a 
 "recent history" using the browser's local-storage, further improving responsiveness by 

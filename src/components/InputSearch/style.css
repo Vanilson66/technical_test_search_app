@@ -4,7 +4,7 @@
       display: flex;
       align-items: center;
       flex-grow: 1;
-      border: 2px solid rgb(235, 235, 235);
+      border: 2px solid var(--translucent-border);
       border-radius: 50px;
       margin: 10px 10px;
 }
