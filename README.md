@@ -10,6 +10,12 @@ yarn install
 - Run the code
 yarn run dev
 
+# How to run the tests?
+For demonstration I implemented a unit test to test the search filter
+- to run the test just run:
+yarn jest
+
+
 # How the code is organized?
 The code was organized containing the pages inside the pages folder with 
 the local components in the same folder, global components in the 
