@@ -1,4 +1,5 @@
 # How to run the code?
+*make sure that you have the node instaled
 
 - Install yarn:
 npm install --global yarn
